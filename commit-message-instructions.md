@@ -10,7 +10,7 @@ Follow the Conventional Commits format strictly for commit messages. Use the str
 [optional footer(s)]
 ```
 
-Guidelines:
+## Guidelines
 
 1. **Types**
     - **`feat`**: Commits that add or remove a new feature to the API or UI.  
@@ -63,3 +63,37 @@ Guidelines:
     - Avoid including non-functional or redundant information.
 
 Commit messages should be clear, informative, and professional, aiding readability and project tracking.
+
+## Examples
+
+1. `feat(api): add login endpoint`
+
+2. `fix(ui): correct alignment issue on login form`
+
+3. `refactor(db): restructure user schema for better indexing`
+
+4. `perf(api): optimize response time for search endpoint`
+
+5. `style(config): reformat ESLint rules and fix indentation`
+
+6. `test(auth): add unit tests for token validation`
+
+7. `docs(readme): update installation instructions`
+
+8. `build(ci): update GitHub Actions workflow to Node 18`
+
+9. `ops(infra): add S3 backup configuration for production`
+
+10. `chore(gitignore): add logs and coverage files to .gitignore`
+
+11. `feat(auth): implement OAuth2 login flow`
+
+    ```md
+    add support for OAuth2 login with Google and GitHub
+    * improves user onboarding experience
+    * adds fallback for legacy login
+
+    BREAKING CHANGE: users must now log in using OAuth2; legacy email/password login is no longer supported
+
+    #101
+    ```
