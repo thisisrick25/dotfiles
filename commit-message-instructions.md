@@ -86,12 +86,12 @@ Commit messages should be clear, informative, and professional, aiding readabili
 
 10. `chore(gitignore): add logs and coverage files to .gitignore`
 
-11. `feat(auth): implement OAuth2 login flow`
+11. ```md
+    feat(auth): implement OAuth2 login flow
 
-    ```md
     add support for OAuth2 login with Google and GitHub
-    * improves user onboarding experience
-    * adds fallback for legacy login
+    - improves user onboarding experience
+    - adds fallback for legacy login
 
     BREAKING CHANGE: users must now log in using OAuth2; legacy email/password login is no longer supported
 
