@@ -3,11 +3,11 @@
 Follow the Conventional Commits format strictly for commit messages. Use the structure below:
 
 ```md
-<type>(<optional scope>): <gitmoji> <description>
+<type>(<scope>): <gitmoji> <description>
 
-[optional body]
+[body]
 
-[optional footer(s)]
+[footer(s)]
 ```
 
 ## Guidelines
