@@ -43,6 +43,7 @@ Follow the Conventional Commits format strictly for commit messages. Use the str
     - Think of it like: “This commit will...”
     - **Don’t** capitalize the first letter.
     - **No dot** (`.`) at the end.
+    - Must be under **256 characters**
 
 5. **Body**
     - Explains the **motivation** behind the change.
@@ -51,6 +52,7 @@ Follow the Conventional Commits format strictly for commit messages. Use the str
     - Can include reasoning, edge cases, limitations, or decisions made.
     - Use **bullet points** (`*`) for clarity.
     - Clearly describe the motivation, context, or technical details behind the change, if applicable.
+    - Must be under **256 characters**
 
 6. **Breaking Changes**
     - Should be indicated by an ! before the : in the subject line
@@ -61,6 +63,7 @@ Follow the Conventional Commits format strictly for commit messages. Use the str
     - Place each entry on a **new line**.
     - **Breaking changes** should start with the phrase `BREAKING CHANGE:` followed by a clear explanation.
     - Avoid including non-functional or redundant information.
+    - Must be under **256 characters**
 
 Commit messages should be clear, informative, and professional, aiding readability and project tracking.
 
