@@ -1,0 +1,55 @@
+{
+    // Workbench & UI Settings
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.activityBar.location": "top",
+    "window.menuBarVisibility": "toggle",
+    "window.commandCenter": false,
+    // Shows: [dirty indicator][file name] — [folder name] — [repo:branch] — [workspace name]
+    "window.title": "${dirty}${activeFolderMedium}${separator}${activeEditorShort}${separator}${activeRepositoryName}:${activeRepositoryBranchName}${separator}${rootName}",
+
+    // Editor Settings
+    "editor.mouseWheelZoom": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.tabCompletion": "on",
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.suggest.localityBonus": true,
+
+    // File Management Settings
+    "files.autoSave": "afterDelay",
+    "explorer.fileNesting.enabled": true,
+
+    // Explorer Settings
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    // Terminal Settings
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+
+    // Security & Workspace Trust Settings
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.enabled": false,
+
+    // Code Runner Extension Settings
+    "code-runner.runInTerminal": true,
+    "code-runner.ignoreSelection": true,
+
+    // Git & GitLens Extension Settings
+    "git.enableCommitSigning": true,
+
+    // Profile Synchronization Settings (used when applying settings across profiles)
+    "workbench.settings.applyToAllProfiles": [
+        "git.enableCommitSigning",
+        "files.autoSave",
+        "editor.cursorBlinking",
+        "editor.cursorSmoothCaretAnimation"
+    ]
+}
