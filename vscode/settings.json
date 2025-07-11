@@ -5,13 +5,13 @@
     "workbench.editor.empty.hint": "hidden",
     "workbench.colorTheme": "Monokai Pro",
     "workbench.activityBar.location": "top",
+    "workbench.layoutControl.enabled": false,
     "window.menuBarVisibility": "toggle",
     "window.commandCenter": false,
-    // Shows: [dirty indicator][file name] — [folder name] — [repo:branch] — [workspace name]
-    "window.title": "${dirty}${activeFolderMedium}${separator}${activeEditorShort}${separator}${activeRepositoryName}:${activeRepositoryBranchName}${separator}${rootName}",
+    "window.title": "${dirty}${activeEditorShort}${separator}${activeFolderMedium}${separator}${activeRepositoryName}:${activeRepositoryBranchName}${separator}${rootName}",
 
     // Editor Settings
-    "editor.mouseWheelZoom": true,
+    "editor.mouseWheelZoom": false,
     "editor.inlineSuggest.enabled": true,
     "editor.linkedEditing": true,
     "editor.minimap.enabled": false,
@@ -20,6 +20,8 @@
     "editor.tabCompletion": "on",
     "editor.suggestSelection": "recentlyUsedByPrefix",
     "editor.suggest.localityBonus": true,
+    "editor.fontSize": 14,
+    "editor.tabSize": 4,
 
     // File Management Settings
     "files.autoSave": "afterDelay",
@@ -38,11 +40,7 @@
     "security.workspace.trust.startupPrompt": "never",
     "security.workspace.trust.enabled": false,
 
-    // Code Runner Extension Settings
-    "code-runner.runInTerminal": true,
-    "code-runner.ignoreSelection": true,
-
-    // Git & GitLens Extension Settings
+    // Git Settings
     "git.enableCommitSigning": true,
 
     // Profile Synchronization Settings (used when applying settings across profiles)
